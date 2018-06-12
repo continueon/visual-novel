@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+main {
+    background-color: grey;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+#visual {
+    background-image: url("image/start.png");
+    background-size: 100%;
+    background-color: white;
+    height: 550px;
+    margin: auto;
+}
+
+#textBox {
+    display: none;
+    background-image: url("image/textBox.png");
+    background-size: 100%;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-family: "Lucida Console";
+    padding: 50px 65px 20px 30px;
+}
+
+#selection {
+    display: none;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+#btn1, #btn2, #btn3 {
+    background-color: #555555;
+    width: 300px;
+    height: 75px;
+    color: white;
+    margin: 45px 10px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#new, #load {
+    background-color: #555555;
+    width: 965px;
+    height: 75px;
+    color: white;
+    margin: 45px 10px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#menu {
+    display: none;
+}
+
+#save, #txtload {
+    background-color: #555555;
+    width: 100px;
+    height: 25px;
+    color: white;
+    text-align: right;
+    margin: auto;
+    font-size: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#retry {
+    display: none;
+}
+
+#retr1 {
+    background-color: #555555;
+    width: 965px;
+    height: 75px;
+    color: white;
+    margin: 45px 10px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
